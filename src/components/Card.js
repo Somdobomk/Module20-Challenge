@@ -32,7 +32,7 @@ function Card() {
           <FaEnvelope />
           <span className='sr-only'>Email</span>
         </a>
-        </div>
+          </div>
         </div>
       </div>
     </div>
