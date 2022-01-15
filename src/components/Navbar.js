@@ -1,10 +1,9 @@
-import React from "react"
-// import { NavLink } from "react-router-dom"
-import { Fragment } from 'react'
+import {React, Fragment} from "react"
+import Link from "react-router-dom"
 import { Disclosure } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-export default function Navbar() {
+function Navbar() {
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -22,21 +21,8 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                    alt="Workflow"
-                  />
-                </div>
+              <div className="flex-1 flex items-center justify-center">
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="#"
                     className="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
@@ -63,15 +49,6 @@ export default function Navbar() {
                   </a>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                >
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
-              </div>
             </div>
           </div>
 
@@ -83,14 +60,21 @@ export default function Navbar() {
                 href="#"
                 className="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Dashboard
+                Home
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
                 className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Team
+                About
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="#"
+                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+              >
+                Skills
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
@@ -99,13 +83,6 @@ export default function Navbar() {
               >
                 Projects
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Calendar
-              </Disclosure.Button>
             </div>
           </Disclosure.Panel>
         </>
@@ -113,3 +90,5 @@ export default function Navbar() {
     </Disclosure>
   )
 }
+
+export default Navbar;
