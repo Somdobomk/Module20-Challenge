@@ -5,7 +5,7 @@ import {FiFigma} from 'react-icons/fi';
 
 function Skills() {
   return (
-    <div className='max-w-4xl mx-auto justify-center py-12' id='skills'>
+    <div className='max-w-4xl mx-auto justify-center py-12' id='tech'>
       <p className='text-2xl text-black text-center sm:text-4xl pt-4 font-bold'>
         Tech I Use
       </p>
