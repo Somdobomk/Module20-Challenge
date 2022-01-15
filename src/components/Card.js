@@ -1,6 +1,6 @@
 import React from "react";
-import profile from '../images/profile.jpg'
-import {FaGithubSquare, FaLinkedin, FaEnvelope} from 'react-icons/fa'
+import profile from '../images/profile.jpg';
+import {FaGithubSquare, FaLinkedin, FaEnvelope} from 'react-icons/fa';
 
 function Card() {
   return(

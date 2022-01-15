@@ -1,6 +1,6 @@
-import React from 'react'
-import scrollIntoView from 'scroll-into-view'
-import {FaChevronDown} from 'react-icons/fa'
+import React from 'react';
+import scrollIntoView from 'scroll-into-view';
+import {FaChevronDown} from 'react-icons/fa';
 
 function About() {
   return (
