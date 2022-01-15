@@ -1,7 +1,7 @@
 # Module 20 - React Portfolio
 
 <h1 align="center">
-    <a href="https://somdobomk-module20-challenge.netlify.app/" target="_blank">
+    <a href="https://somdobomk-module20-challenge.netlify.app/" target="_blank" rel="noopener">
      View Demo
     </a>
 </h1>
