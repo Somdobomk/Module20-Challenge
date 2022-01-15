@@ -14,7 +14,7 @@ function Card() {
             David Zapico
           </p>
           <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2'>
-            Frontend Developer
+            USMC Vet / Frontend Developer
           </p>
 
           <div className='flex align-center justify-center mt-4'>
