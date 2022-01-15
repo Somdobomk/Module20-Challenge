@@ -21,7 +21,7 @@ function Projects() {
             <a href={'https://ourdoggos.com/'} target='_blank' rel='noopener noreferrer'>Ourdoggos</a>
           </p>
           <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block'>
-          <a href={''} target='_blank' rel='noopener noreferrer'>Source</a>
+          <a href={'/'} target='_blank' rel='noopener noreferrer'>Source</a>
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ function Projects() {
           <a href={'https://ddtcoffee.com'} target='_blank' rel='noopener noreferrer'>DDT Coffee</a>
           </p>
           <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block'>
-          <a href={''} target='_blank' rel='noopener noreferrer'>Source</a>
+          <a href={'/'} target='_blank' rel='noopener noreferrer'>Source</a>
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ function Projects() {
           <a href={'https://safetycomplianceandtraining.com'} target='_blank' rel='noopener noreferrer'>SCT</a>
           </p>
           <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block'>
-          <a href={''} target='_blank' rel='noopener noreferrer'>Source</a>
+          <a href={'/'} target='_blank' rel='noopener noreferrer'>Source</a>
           </p>
         </div>
       </div>
@@ -77,7 +77,7 @@ function Projects() {
           <a href={'https://github.com/Somdobomk/Dogecoin-Ticker'} target='_blank' rel='noopener noreferrer'>Portfolio V1</a>
           </p>
           <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block'>
-          <a href={''} target='_blank' rel='noopener noreferrer'>Source</a>
+          <a href={'/'} target='_blank' rel='noopener noreferrer'>Source</a>
           </p>
         </div>
       </div>
