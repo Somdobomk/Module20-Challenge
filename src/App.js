@@ -3,6 +3,7 @@ import Card from './components/Card';
 import About from './components/About';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -23,6 +24,7 @@ function App() {
         <About />
       </div>
       <Skills />
+      <Projects />
       <ContactMe />
       <Footer />
     </div>
